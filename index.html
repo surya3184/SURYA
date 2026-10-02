@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tuniki Surya Teja | Data Analytics & AI/ML Portfolio</title>
+  <meta name="description" content="Professional portfolio of Tuniki Surya Teja - Computer Science student specializing in Data Analytics, Python, SQL, Power BI, and Applied NLP/IoT systems.">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Tuniki Surya Teja | Data Analytics & AI/ML Portfolio">
+  <meta property="og:description" content="Entry-level Data Analytics candidate with practical expertise in Python, SQL, Power BI, NLP, and IoT automation.">
+  <meta property="og:type" content="website">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <!-- Header / Fixed Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Tuniki Surya Teja Home">
+        <span class="monogram">ST</span>
+        <span class="brand-text">Surya Teja<span>.</span></span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="assets/resume.pdf" class="btn btn-outline nav-resume-btn" download target="_blank" rel="noopener noreferrer">
+          <i class="fa-solid fa-arrow-down-to-line"></i>
+          <span>Resume</span>
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <ul class="mobile-links">
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-nav-link">Projects</a></li>
+        <li><a href="#certifications" class="mobile-nav-link">Certifications</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+        <li class="mobile-resume-wrap">
+          <a href="assets/resume.pdf" class="btn btn-primary" download target="_blank" rel="noopener noreferrer">
+            <i class="fa-solid fa-download"></i> Download Full Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-grid"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge-pill">
+            <span class="indicator-dot"></span>
+            <span>Available for Entry-Level Data Analytics Roles</span>
+          </div>
+          
+          <h1 class="hero-title">
+            Transforming Complex Data into <span class="gradient-text">Actionable Intelligence</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            I am <strong class="text-white">Tuniki Surya Teja</strong>, a Computer Science student with practical expertise in Python, SQL, and Power BI, backed by applied project experience in AI, Natural Language Processing, and IoT systems.
+          </p>
+
+          <div class="hero-metadata">
+            <span class="meta-item"><i class="fa-solid fa-location-dot"></i> Rajanna Siricilla, Telangana, India</span>
+            <span class="meta-item"><i class="fa-solid fa-envelope"></i> tejaatuniki@gmail.com</span>
+            <span class="meta-item"><i class="fa-solid fa-phone"></i> +91 6300734682</span>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-chart-line"></i> View Technical Projects
+            </a>
+            <a href="assets/resume.pdf" class="btn btn-secondary" download target="_blank" rel="noopener noreferrer">
+              <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+            </a>
+            <a href="#contact" class="btn btn-ghost">
+              <i class="fa-solid fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="terminal-card">
+            <div class="terminal-header">
+              <div class="window-dots">
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+              </div>
+              <span class="terminal-title">surya_teja@analytics: ~/profile</span>
+            </div>
+            <div class="terminal-body">
+              <p class="term-line"><span class="prompt">$</span> load-profile --candidate "Tuniki Surya Teja"</p>
+              <div class="term-data">
+                <div class="data-row">
+                  <span class="data-key">Domain:</span>
+                  <span class="data-val highlight">Data Analytics & Applied AI</span>
+                </div>
+                <div class="data-row">
+                  <span class="data-key">Core Stack:</span>
+                  <span class="data-val">Python, SQL, Power BI, REST APIs</span>
+                </div>
+                <div class="data-row">
+                  <span class="data-key">ML / NLP:</span>
+                  <span class="data-val">SVM, Tokenization, Text Vectorization</span>
+                </div>
+                <div class="data-row">
+                  <span class="data-key">Hardware / IoT:</span>
+                  <span class="data-val">ESP32, Blynk, Sensor Integration</span>
+                </div>
+                <div class="data-row">
+                  <span class="data-key">Education:</span>
+                  <span class="data-val">B.Tech CSE (CGPA: 7.82)</span>
+                </div>
+                <div class="data-row">
+                  <span class="data-key">Status:</span>
+                  <span class="data-val status-ready"><i class="fa-solid fa-circle-check"></i> Ready for Deployment</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Profile Overview</span>
+          <h2 class="section-title">Objective & Professional Summary</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card primary-card">
+            <div class="about-badge">
+              <i class="fa-solid fa-bullseye"></i>
+              <span>Career Objective</span>
+            </div>
+            <h3 class="about-headline">Turning raw data streams into structured, transparent decision models.</h3>
+            <p class="about-copy">
+              Computer Science student with hands-on skills in Python, SQL, and Power BI, combined with project implementation experience in Artificial Intelligence and Natural Language Processing. Actively seeking an entry-level Data Analytics role dedicated to transforming business data into clear, useful insights.
+            </p>
+            <div class="core-pillars">
+              <div class="pillar-item">
+                <i class="fa-solid fa-database"></i>
+                <div>
+                  <h4>Relational Data & SQL</h4>
+                  <p>Structured query formulation, data extraction, and relational organization.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <i class="fa-solid fa-chart-pie"></i>
+                <div>
+                  <h4>Business Intelligence</h4>
+                  <p>Certified in Microsoft Power BI for visual analytics and dashboard reporting.</p>
+                </div>
+              </div>
+              <div class="pillar-item">
+                <i class="fa-solid fa-microchip"></i>
+                <div>
+                  <h4>Machine Learning & NLP</h4>
+                  <p>Practical integration of NLP preprocessing, intent classification, and REST APIs.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-card side-metrics-card">
+            <h3 class="side-title"><i class="fa-solid fa-address-card"></i> Candidate Summary</h3>
+            <ul class="summary-list">
+              <li>
+                <span class="label"><i class="fa-solid fa-user-check"></i> Degree Candidate</span>
+                <span class="value">B.Tech in Computer Science & Engineering</span>
+              </li>
+              <li>
+                <span class="label"><i class="fa-solid fa-calendar-check"></i> Cohort Timeline</span>
+                <span class="value">2022 – 2026</span>
+              </li>
+              <li>
+                <span class="label"><i class="fa-solid fa-location-crosshairs"></i> Regional Base</span>
+                <span class="value">Rajanna Siricilla, Telangana, India</span>
+              </li>
+              <li>
+                <span class="label"><i class="fa-solid fa-certificate"></i> Specialized Training</span>
+                <span class="value">Microsoft Power BI & IBM SkillsBuild</span>
+              </li>
+              <li>
+                <span class="label"><i class="fa-solid fa-lightbulb"></i> Working Mindset</span>
+                <span class="value">Problem-Solving, Communication, Teamwork</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Competency Matrix</span>
+          <h2 class="section-title">Technical & Analytical Skills</h2>
+          <div class="title-bar"></div>
+          <p class="section-intro">Strictly derived from verified project deliveries, academic coursework, and industry certifications.</p>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Programming & Querying -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-code"></i></div>
+              <h3 class="cat-title">Languages</h3>
+            </div>
+            <div class="skill-pill-list">
+              <span class="tech-tag"><i class="fa-brands fa-python"></i> Python</span>
+              <span class="tech-tag"><i class="fa-solid fa-database"></i> SQL</span>
+            </div>
+          </div>
+
+          <!-- Tools & Platforms -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-chart-simple"></i></div>
+              <h3 class="cat-title">Analytics & Tools</h3>
+            </div>
+            <div class="skill-pill-list">
+              <span class="tech-tag tag-primary"><i class="fa-solid fa-chart-column"></i> Power BI</span>
+              <span class="tech-tag"><i class="fa-brands fa-git-alt"></i> Git</span>
+              <span class="tech-tag"><i class="fa-brands fa-github"></i> GitHub</span>
+            </div>
+          </div>
+
+          <!-- Web & Technologies -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-laptop-code"></i></div>
+              <h3 class="cat-title">Web & Frameworks</h3>
+            </div>
+            <div class="skill-pill-list">
+              <span class="tech-tag"><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class="tech-tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span class="tech-tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tech-tag"><i class="fa-solid fa-network-wired"></i> REST APIs</span>
+            </div>
+          </div>
+
+          <!-- Domain Applied Skills -->
+          <div class="skill-category-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-brain"></i></div>
+              <h3 class="cat-title">Applied AI & IoT</h3>
+            </div>
+            <div class="skill-pill-list">
+              <span class="tech-tag">Natural Language Processing (NLP)</span>
+              <span class="tech-tag">Support Vector Machine (SVM)</span>
+              <span class="tech-tag">Tokenization & Vectorization</span>
+              <span class="tech-tag">ESP32 Microcontroller</span>
+              <span class="tech-tag">Blynk IoT Platform</span>
+            </div>
+          </div>
+
+          <!-- Professional Soft Skills -->
+          <div class="skill-category-card full-width-card">
+            <div class="cat-header">
+              <div class="cat-icon"><i class="fa-solid fa-users-gear"></i></div>
+              <h3 class="cat-title">Core Professional Competencies</h3>
+            </div>
+            <div class="competencies-row">
+              <div class="comp-box">
+                <i class="fa-solid fa-puzzle-piece"></i>
+                <div class="comp-meta">
+                  <strong>Problem-Solving</strong>
+                  <span>Algorithmic troubleshooting and diagnostic debugging</span>
+                </div>
+              </div>
+              <div class="comp-box">
+                <i class="fa-solid fa-comments"></i>
+                <div class="comp-meta">
+                  <strong>Communication</strong>
+                  <span>Translating technical analytical outcomes for stakeholders</span>
+                </div>
+              </div>
+              <div class="comp-box">
+                <i class="fa-solid fa-people-group"></i>
+                <div class="comp-meta">
+                  <strong>Teamwork</strong>
+                  <span>Collaborative multi-tier project design and version control</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Engineering Showcase</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-bar"></div>
+          <p class="section-intro">End-to-end architectures spanning natural language interfaces and connected IoT infrastructure.</p>
+        </div>
+
+        <div class="projects-container">
+          <!-- Project 1: AI Assistant -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badge"><i class="fa-solid fa-robot"></i> NLP & Machine Learning</div>
+              <h3 class="project-title">AI-Powered Personal Assistant</h3>
+              <p class="project-tagline">Intelligent conversational interface featuring machine learning-based intent classification and dynamic API integration.</p>
+            </div>
+
+            <div class="project-body">
+              <div class="tech-stack-wrap">
+                <span class="stack-label">Technologies Used:</span>
+                <div class="stack-tags">
+                  <span class="stack-badge">Python</span>
+                  <span class="stack-badge">NLP</span>
+                  <span class="stack-badge">SVM</span>
+                  <span class="stack-badge">JavaScript</span>
+                  <span class="stack-badge">REST APIs</span>
+                </div>
+              </div>
+
+              <div class="project-deliverables">
+                <h4 class="deliverable-heading"><i class="fa-solid fa-list-check"></i> System Architecture & Key Contributions</h4>
+                <ul class="bullet-list">
+                  <li>Developed an intelligent virtual assistant using Natural Language Processing (NLP) and Support Vector Machines (SVM) for intent classification.</li>
+                  <li>Applied comprehensive text preprocessing pipelines including tokenization, stop-word removal, and vectorization.</li>
+                  <li>Automated high-frequency user tasks including weather forecast updates, reminders, and contextual information retrieval.</li>
+                  <li>Integrated real-time REST APIs to reliably parse external endpoints and generate dynamic responses.</li>
+                  <li>Enhanced user interaction through personalized and adaptive response handling routines.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-status">
+                <i class="fa-solid fa-shield-halved"></i> Verified Implementation
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2: Smart Bin System -->
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-badge"><i class="fa-solid fa-microchip"></i> IoT & Automated Hardware</div>
+              <h3 class="project-title">Smart Bin System with Full Detection and Automated Waste Management</h3>
+              <p class="project-tagline">Embedded micro-controller system for real-time volumetric monitoring, threshold alerts, and contactless operation.</p>
+            </div>
+
+            <div class="project-body">
+              <div class="tech-stack-wrap">
+                <span class="stack-label">Technologies Used:</span>
+                <div class="stack-tags">
+                  <span class="stack-badge">ESP32</span>
+                  <span class="stack-badge">IoT</span>
+                  <span class="stack-badge">Ultrasonic Sensor</span>
+                  <span class="stack-badge">IR Sensor</span>
+                  <span class="stack-badge">Servo Motor</span>
+                  <span class="stack-badge">Blynk App</span>
+                  <span class="stack-badge">LCD</span>
+                </div>
+              </div>
+
+              <div class="project-deliverables">
+                <h4 class="deliverable-heading"><i class="fa-solid fa-list-check"></i> System Architecture & Key Contributions</h4>
+                <ul class="bullet-list">
+                  <li>Designed and developed an IoT-based smart waste monitoring system centered on the ESP32 microcontroller.</li>
+                  <li>Implemented an ultrasonic sensor subsystem to monitor real-time garbage fill levels and volumetric occupancy.</li>
+                  <li>Integrated an IR sensor paired with a high-torque servo motor for automatic, contactless lid actuation.</li>
+                  <li>Enabled telemetry-driven real-time mobile notifications via the Blynk IoT platform when the bin reaches designated threshold levels.</li>
+                  <li>Improved waste collection logistical efficiency, prevented bin overflows, and visually rendered operational status on an integrated LCD screen.</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="project-footer">
+              <div class="project-status">
+                <i class="fa-solid fa-shield-halved"></i> Embedded Architecture Completed
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Continuous Learning</span>
+          <h2 class="section-title">Industry Certifications</h2>
+          <div class="title-bar"></div>
+          <p class="section-intro">Validated professional credentials across Data Analytics, Artificial Intelligence, and Computer Vision.</p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Cert 1 -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-brands fa-microsoft"></i>
+            </div>
+            <div class="cert-details">
+              <div class="cert-meta">
+                <span class="cert-provider">Microsoft</span>
+                <span class="cert-date"><i class="fa-regular fa-calendar"></i> AUG 2025</span>
+              </div>
+              <h3 class="cert-name">Power BI</h3>
+              <p class="cert-desc">Applied data modeling, DAX queries, relational schemas, and interactive business intelligence dashboard generation.</p>
+            </div>
+          </div>
+
+          <!-- Cert 2 -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-microchip"></i>
+            </div>
+            <div class="cert-details">
+              <div class="cert-meta">
+                <span class="cert-provider">IBM SkillsBuild</span>
+                <span class="cert-date"><i class="fa-regular fa-calendar"></i> OCT 2025</span>
+              </div>
+              <h3 class="cert-name">Introduction to Artificial Intelligence</h3>
+              <p class="cert-desc">Explored core machine learning algorithms, model training lifecycle, neural system basics, and applied AI paradigms.</p>
+            </div>
+          </div>
+
+          <!-- Cert 3 -->
+          <div class="cert-card">
+            <div class="cert-icon-box">
+              <i class="fa-solid fa-network-wired"></i>
+            </div>
+            <div class="cert-details">
+              <div class="cert-meta">
+                <span class="cert-provider">IBM SkillsBuild</span>
+                <span class="cert-date"><i class="fa-regular fa-calendar"></i> OCT 2025</span>
+              </div>
+              <h3 class="cert-name">Natural Language Processing and Computer Vision</h3>
+              <p class="cert-desc">Covers lexical analysis, semantic classification, feature extraction, convolutional image architectures, and pattern recognition.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Foundation</span>
+          <h2 class="section-title">Education & Milestones</h2>
+          <div class="title-bar"></div>
+        </div>
+
+        <div class="timeline-wrapper">
+          <!-- Degree -->
+          <div class="timeline-node">
+            <div class="node-marker">
+              <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="node-header">
+                <span class="node-time"><i class="fa-solid fa-clock"></i> 2022 — 2026</span>
+                <span class="node-score badge-primary">CGPA: 7.82</span>
+              </div>
+              <h3 class="institution-name">Sree Dattha Group of Institutions</h3>
+              <h4 class="degree-title">Bachelor of Technology in Computer Science and Engineering</h4>
+              <p class="institution-location"><i class="fa-solid fa-location-dot"></i> Rangareddy, Telangana</p>
+              <div class="academic-note">
+                Focus areas include relational database management, data analytics, algorithmic structures, artificial intelligence, and operating systems.
+              </div>
+            </div>
+          </div>
+
+          <!-- Intermediate -->
+          <div class="timeline-node">
+            <div class="node-marker">
+              <i class="fa-solid fa-school"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="node-header">
+                <span class="node-time"><i class="fa-solid fa-clock"></i> 2020 — Mar 2022</span>
+                <span class="node-score">Percentage: 79%</span>
+              </div>
+              <h3 class="institution-name">Telangana State Model School</h3>
+              <h4 class="degree-title">Intermediate</h4>
+              <p class="institution-location"><i class="fa-solid fa-location-dot"></i> Boinpally, Telangana</p>
+            </div>
+          </div>
+
+          <!-- Secondary -->
+          <div class="timeline-node">
+            <div class="node-marker">
+              <i class="fa-solid fa-award"></i>
+            </div>
+            <div class="timeline-content">
+              <div class="node-header">
+                <span class="node-time"><i class="fa-solid fa-clock"></i> 2019 — Mar 2020</span>
+                <span class="node-score badge-gold">CGPA: 10.0 (Perfect Standing)</span>
+              </div>
+              <h3 class="institution-name">Zilla Parishad High School</h3>
+              <h4 class="degree-title">Secondary Education (SSC)</h4>
+              <p class="institution-location"><i class="fa-solid fa-location-dot"></i> Rudravaram, Telangana</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Professional Strengths / Highlights Section -->
+    <section class="section highlights-section">
+      <div class="container">
+        <div class="highlights-panel">
+          <div class="panel-left">
+            <span class="section-tag">Value Proposition</span>
+            <h2 class="panel-title">Why Consider Me for Data Analytics?</h2>
+            <p class="panel-description">
+              Combining a grounded Computer Science curriculum with certified proficiency in Power BI and hands-on AI project deployments.
+            </p>
+            <div class="panel-ctas">
+              <a href="mailto:tejaatuniki@gmail.com" class="btn btn-primary"><i class="fa-solid fa-envelope-open-text"></i> Start a Conversation</a>
+              <a href="tel:+916300734682" class="btn btn-secondary"><i class="fa-solid fa-phone"></i> Call Directly</a>
+            </div>
+          </div>
+          <div class="panel-right">
+            <div class="highlight-item">
+              <div class="h-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+              <div class="h-info">
+                <h3>Structured Querying & Modeling</h3>
+                <p>Comfortable utilizing SQL and Python to extract, clean, and model datasets for downstream consumption.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="h-icon"><i class="fa-solid fa-gears"></i></div>
+              <div class="h-info">
+                <h3>End-to-End Implementation</h3>
+                <p>Track record of completing multidisciplinary systems combining software pipelines, machine learning logic, and connected hardware.</p>
+              </div>
+            </div>
+            <div class="highlight-item">
+              <div class="h-icon"><i class="fa-solid fa-user-shield"></i></div>
+              <div class="h-info">
+                <h3>Academic & Personal Consistency</h3>
+                <p>Maintained high academic performance with a 10.0 CGPA at secondary level and 7.82 CGPA throughout undergraduate engineering.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Get In Touch</span>
+          <h2 class="section-title">Contact Information</h2>
+          <div class="title-bar"></div>
+          <p class="section-intro">Open to discussions regarding data analytics opportunities, interviews, and technology collaborations.</p>
+        </div>
+
+        <div class="contact-card-wrapper">
+          <!-- Email Card -->
+          <a href="mailto:tejaatuniki@gmail.com" class="contact-channel-card">
+            <div class="channel-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="channel-content">
+              <span class="channel-name">Direct Email</span>
+              <span class="channel-value">tejaatuniki@gmail.com</span>
+            </div>
+            <div class="channel-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <!-- Phone Card -->
+          <a href="tel:+916300734682" class="contact-channel-card">
+            <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+            <div class="channel-content">
+              <span class="channel-name">Phone / WhatsApp</span>
+              <span class="channel-value">+91 6300734682</span>
+            </div>
+            <div class="channel-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+          </a>
+
+          <!-- Location Card -->
+          <div class="contact-channel-card no-link">
+            <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div class="channel-content">
+              <span class="channel-name">Current Location</span>
+              <span class="channel-value">Rajanna Siricilla, Telangana, India</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <span class="monogram">ST</span>
+            <span class="brand-text">Surya Teja</span>
+          </div>
+          <p class="footer-tagline">Computer Science Graduate | Aspiring Data Analyst</p>
+        </div>
+
+        <ul class="footer-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="currentYear">2026</span> Tuniki Surya Teja. All rights reserved.
+        </p>
+        <p class="built-with">
+          Designed with semantic HTML5, modern CSS3, and vanilla JavaScript.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll To Top Button -->
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top of page">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="index.js"></script>
+</body>
+</html>
